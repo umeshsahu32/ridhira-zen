@@ -1,0 +1,55 @@
+/* ==== Cards using Bootstrap === */
+
+.about-us-intro {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-us-intro h1 {
+  font-weight: 600;
+}
+
+.about-us-intro h2 {
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+
+.about-us-intro p {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+  font-size: 1rem;
+  color: #303030;
+  font-weight: 500;
+}
+
+#cards .card {
+  border-radius: 20px;
+  min-height: 100%;
+}
+
+#cards .heading-border {
+  position: absolute;
+  width: 100%;
+  top: 60%;
+}
+
+#cards .card .user-picture img {
+  position: absolute;
+  top: -30%;
+  right: 10%;
+  background: #f8f9fa !important;
+  padding: 10px;
+}
+
+#cards .card .user-content .user-name {
+  margin-right: 150px;
+}
+
+@media (max-width: 1200px) {
+  #cards .card .user-picture img {
+    top: -20%;
+  }
+}
